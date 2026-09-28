@@ -653,6 +653,13 @@ const INITIAL_TOOLS = [
     chatSetup: 'claude mcp add screenpipe -- npx -y screenpipe-mcp@latest\n# Then ask: "what did I see in the last hour?" or "summarise today\'s meetings"',
     codeSetup: '# Start recording (free CLI)\nnpx screenpipe record\n\n# Add MCP to Claude Code\nclaude mcp add screenpipe -- npx -y screenpipe-mcp@latest\n\n# Desktop app (paid, $400 one-time)\n# https://screenpi.pe/onboarding',
     tags: ['memory','screen-recording','audio','mcp','pipes','agents','local','private','productivity'] },
+
+  { id: 87, name: 'Herdr',               type: 'Git Repo', category: 'Dev Tools',
+    desc: 'Terminal multiplexer rebuilt for AI coding agents — one sidebar shows every agent (Claude Code, Codex, Pi, OpenCode, Cursor, Devin, Kimi, and more) with live state: blocked / working / done / idle. Each agent gets its own real PTY pane, sessions survive detach/SSH, and a local Unix socket API lets agents create workspaces, split panes, spawn helpers, and control each other. v0.9 adds remote machine support so agents on different machines appear in the same sidebar. YC F26, $6M seed, ~15k ⭐. Free, open-source (Rust)',
+    link: 'https://github.com/ogulcancelik/herdr',
+    chatSetup: '',
+    codeSetup: '# macOS / Linux\nbrew install herdr\n# or\nmise use -g herdr\n# or\nnix run github:ogulcancelik/herdr\n\n# Windows\npowershell -ExecutionPolicy Bypass -c "irm https://herdr.dev/install.ps1 | iex"\n\n# Docs: https://herdr.dev/docs',
+    tags: ['terminal','multiplexer','agents','claude-code','codex','tmux','pty','ssh','rust','yc','open-source','agent-control'] },
 ]
 // ───────────────────────────────────────────────────────────────────────────
 

@@ -378,6 +378,12 @@
   **Code Setup:** `npx skills add https://github.com/latent-spaces/brag --skill brag`  
   `#launch #video #demo #share #hyperframes #motion #storytelling #marketing #branding`
 
+- **Herdr** 🗃️ Git Repo  
+  Terminal multiplexer rebuilt for AI coding agents — one sidebar shows every agent (Claude Code, Codex, Pi, OpenCode, Cursor, Devin, Kimi, and more) with live state: blocked / working / done / idle. Each agent gets its own real PTY pane, sessions survive detach/SSH, and a local Unix socket API lets agents control each other. v0.9 adds remote machine support. YC F26, $6M seed, ~15k ⭐. Free, open-source (Rust)  
+  🔗 https://github.com/ogulcancelik/herdr  
+  **Setup:** `brew install herdr` or `mise use -g herdr` · Docs: herdr.dev/docs  
+  `#terminal #multiplexer #agents #claude-code #codex #tmux #pty #ssh #rust #yc #agent-control`
+
 - **Omarchy** 🗃️ Git Repo  
   Beautiful, agentic Linux by DHH (creator of Rails, Hey, Basecamp). Omakase Linux desktop on Arch + Hyprland + Quickshell — keyboard-first workstation with system-wide themes and integrated coding agents (Claude, Codex, Grok, OpenRouter, Hermes)  
   🔗 https://github.com/omacom/omarchy  
@@ -581,4 +587,4 @@
 
 ---
 
-*86 tools total · Last updated September 2026*
+*87 tools total · Last updated September 2026*
