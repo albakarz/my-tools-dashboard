@@ -185,6 +185,18 @@
   **Setup:** `npx skills add emilkowalski/skills --skill apple-design`  
   `#apple #ios #fluid #spring-animation #gesture #drag #swipe #vibrancy #motion #wwdc`
 
+- **dimensional-drawing** ⚡ Skill  
+  Turns any UI component (repo file, Storybook story, URL, or screenshot) into a one-page, monochrome Apple-style technical spec drawing. Companion skill dimensional-drawing-motion animates the finished sheet into a ~10s video via Claude Motion or headless Playwright + ffmpeg. MIT licensed, ~414 ⭐  
+  🔗 https://github.com/enesozturk/dimensional-drawing  
+  **Setup:** `npx skills add enesozturk/dimensional-drawing` (add `enesozturk/dimensional-drawing-motion` for video)  
+  `#design #apple #technical-drawing #spec #svg #animation #motion #monochrome #components`
+
+- **logo-design-skill** ⚡ Skill  
+  Comprehensive logo design skill — brief → research → concepts → checkpoint → production SVG + brand guidelines. Includes 1,400+ classified SVG reference library + Python tools for SVG auditing, test sheets, presentation boards, and favicon/app-icon export. By Kaan Kızıltuğ. MIT, ~5k ⭐  
+  🔗 https://github.com/kaankiziltug/logo-design-skill  
+  **Setup:** `/plugin marketplace add kaankiziltug/logo-design-skill` or `npx skills add kaankiziltug/logo-design-skill`  
+  `#logo #branding #svg #identity #design #reference #icons #favicon #python #audit`
+
 - **MengTo Skills** ⚡ Skill  
   Agent skills by Meng To for designers and builders — UI design-first prompting, Three.js game development, web design, landing pages, and reusable frontend workflows  
   🔗 https://github.com/MengTo/Skills  
@@ -208,6 +220,13 @@
   🔗 https://github.com/aydinfer/spline-mcp-server  
   `#spline #3d #broken #watch`
 
+- **Rive MCP** 🔌 MCP  
+  Official Rive MCP server — connects Claude to the Rive editor to edit scenes, state machines, and animations in-editor. Community rive-mcp (ODU33104) is editor-free with 32 tools for creating, inspecting, rendering, and live-previewing .riv files without opening Rive at all  
+  🔗 https://rive.app/docs/editor/ai/mcp  
+  **Official Setup:** `claude mcp add --transport http rive http://127.0.0.1:9791/mcp` (Rive Desktop → Settings → MCP → Start server)  
+  **Community Setup:** `/plugin marketplace add ODU33104/rive-mcp`  
+  `#rive #animation #state-machine #interactive #motion #mcp #official #riv`
+
 - **GSAP Master MCP** 🔌 MCP  
   GSAP animation MCP server — advanced timelines and scroll effects  
   🔗 https://github.com/bruzethegreat/gsap-master-mcp-server  
@@ -226,6 +245,24 @@
   🔗 https://refero.design/mcp  
   **Setup:** `claude mcp add refero --transport http https://refero.design/mcp`  
   `#design #ui #ux #reference #screens #flows #inspiration #paid`
+
+- **MagicPath 💳** 🗃️ Git Repo  
+  💳 Freemium (Pro $29/mo). AI UI design tool on an infinite canvas — text prompt → UI screens + components. MagicPath 2.0 adds a multiplayer canvas where Claude Code, Codex, or Cursor agents build screens in parallel. Exports production-ready React, TypeScript, and Tailwind CSS code + Figma  
+  🔗 https://www.magicpath.ai/  
+  **Setup:** Web app — browser-based, no install. Free tier + Pro $29/mo  
+  `#ui #design #canvas #multiplayer #agents #react #tailwind #figma #code-export #paid`
+
+- **UI Builder** 🗃️ Git Repo  
+  Open-source Figma-style drag & drop visual editor that drops into your React app — uses your existing components (shadcn/ui, Chakra UI, or any library), lets non-developers build pages and dashboards, saves layouts as plain JSON for easy versioning. Stack: React + shadcn/ui + Tailwind + Zustand + Zod  
+  🔗 https://github.com/olliethedev/ui-builder  
+  **Setup:** `npm install ui-builder` · Docs: uibuilder.app/docs/quick-start  
+  `#drag-drop #visual-editor #react #shadcn #tailwind #json #cms #no-code #components #open-source`
+
+- **Ant Design CLI/MCP** 🔌 MCP  
+  Official Ant Design MCP server + agent skill — 8 tools for component props, docs, demos, design tokens, changelogs, linting, and migration guides. Works offline with bundled metadata. Claude Code is a supported client. Part of @ant-design/cli ≥ v6.3.5  
+  🔗 https://github.com/ant-design/ant-design-cli  
+  **Setup:** `npm install -g @ant-design/cli && antd mcp` or `npx skills add ant-design/ant-design-cli` · Auto-configure: `antd setup --client claude`  
+  `#ant-design #antd #components #mcp #skill #docs #tokens #linting #migration #react #offline #official`
 
 - **Uiverse** 🗃️ Git Repo  
   Largest community-built library of open-source UI elements — 7,400+ buttons, cards, loaders, forms, tooltips, backgrounds. Copy as HTML/CSS, Tailwind, React, or Figma. MIT licensed, 100% free  
@@ -377,6 +414,12 @@
   **Chat Setup:** `/plugin marketplace add latent-spaces/brag && /plugin install brag@brag && /brag`  
   **Code Setup:** `npx skills add https://github.com/latent-spaces/brag --skill brag`  
   `#launch #video #demo #share #hyperframes #motion #storytelling #marketing #branding`
+
+- **simslim** 🗃️ Git Repo  
+  Run more iOS simulators on one Mac by disabling background daemons a simulator doesn't need. Cuts each simulator's memory ~4×. Built by MobAI for running fleets of AI-agent-controlled simulators (each driven by its own Claude Code). Go, MIT licensed, ~3.2k ⭐  
+  🔗 https://github.com/MobAI-App/simslim  
+  **Setup:** `brew install mobai-app/tap/simslim` (requires Xcode + iOS Simulator runtime ≥ 18.5)  
+  `#ios #simulator #xcode #memory #agents #testing #automation #mobai #claude-code #go`
 
 - **Herdr** 🗃️ Git Repo  
   Terminal multiplexer rebuilt for AI coding agents — one sidebar shows every agent (Claude Code, Codex, Pi, OpenCode, Cursor, Devin, Kimi, and more) with live state: blocked / working / done / idle. Each agent gets its own real PTY pane, sessions survive detach/SSH, and a local Unix socket API lets agents control each other. v0.9 adds remote machine support. YC F26, $6M seed, ~15k ⭐. Free, open-source (Rust)  
@@ -545,6 +588,18 @@
   **Setup:** `npx skills add mvanhorn/last30days-skill -g -y`  
   `#history #summary #insights`
 
+- **DigUp** 🗃️ Git Repo  
+  On-device semantic file search — search photos, PDFs, docs, recordings, videos, and code by what's in them, not just filenames. Built on Google DeepMind's EmbeddingGemma 2. Runs fully locally on Mac (stable), Windows and Linux (beta). MIT licensed, ~5.3k ⭐. MCP integration is a planned feature  
+  🔗 https://github.com/ARahim3/DigUp  
+  **Setup:** Download from GitHub releases (see README for Mac/Windows/Linux install)  
+  `#search #semantic #on-device #local #files #pdf #photos #video #gemma #embedding`
+
+- **FluidVoice** 🗃️ Git Repo  
+  Fastest macOS on-device dictation app — Parakeet, Nemotron, or Whisper models run fully locally. No cloud, no account, no word limits. Writes to any app. Free, GPL v3, ~12.5k ⭐. Windows + iOS TestFlight available. Android + Linux on waitlist. Great for voice-to-Claude-Code workflows  
+  🔗 https://github.com/altic-dev/FluidVoice  
+  **Setup:** `brew install --cask fluidvoice` (requires macOS 15+ / Apple Silicon)  
+  `#voice #dictation #stt #whisper #parakeet #local #offline #macos #no-cloud #free #gpl`
+
 - **Caveman** ⚡ Skill  
   Cuts ~65% output tokens by making Claude respond in terse caveman-speak. Full technical accuracy kept. 4 modes: lite / full / ultra / wenyan. 69.4k ⭐  
   🔗 https://github.com/JuliusBrussee/caveman  
@@ -573,6 +628,12 @@
   **Setup:** Reference repo — `git clone https://github.com/shanraisshan/claude-code-best-practice`  
   `#claude-md #memory #context #best-practice #project`
 
+- **ribbon** 🗃️ Git Repo  
+  Slim status band above the Claude Code prompt — shows your 7-day and 5-hour usage remaining, reset times, and whether your prompt cache is warm or cold, plus what your next message will cost. Install once, applies to all projects. MIT licensed  
+  🔗 https://github.com/robonuggets/ribbon  
+  **Setup:** `/plugin install ribbon --marketplace robonuggets/ribbon` (start a new session to see the band)  
+  `#usage #tokens #cache #cost #status #claude-code #plugin #utility`
+
 - **Claude Code Setup (Official)** ⚡ Skill  
   Official Anthropic plugin — scans your codebase and recommends the top 1–2 tailored automations per category: MCP servers, Skills, Hooks, Subagents, and Slash Commands. Read-only, never modifies your files  
   🔗 https://github.com/anthropics/claude-plugins-official/tree/main/plugins/claude-code-setup  
@@ -587,4 +648,4 @@
 
 ---
 
-*87 tools total · Last updated September 2026*
+*97 tools total · Last updated October 2026*
