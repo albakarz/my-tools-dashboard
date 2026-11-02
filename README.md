@@ -109,6 +109,12 @@
   **Chat Setup:** Visit mirofish.homes → attach seed material → run simulation  
   `#simulation #prediction #multi-agent #scenario #knowledge-graph #persona #narrative #market`
 
+- **Unsloth** 🗃️ Git Repo  
+  Fast LLM fine-tuning — 2–5× faster, 70% less VRAM than standard training. Supports 500+ open-source models (LLaMA, Mistral, Qwen, Phi, Gemma, DeepSeek, vision, embedding, TTS). Methods: LoRA, QLoRA, 4-bit, SFT, DPO, ORPO, GRPO, full fine-tuning, RL. Fine-tune 8B models on a single 12 GB GPU. Includes Unsloth Studio (web UI). Apache 2.0, 35k+ ⭐  
+  🔗 https://github.com/unslothai/unsloth  
+  **Setup:** `pip install unsloth`  
+  `#llm #fine-tuning #lora #qlora #training #gpu #llama #mistral #qwen #deepseek #rl #dpo #grpo #open-source`
+
 ---
 
 ## Design & Animation
@@ -738,4 +744,4 @@
 
 ---
 
-*112 tools total · Last updated November 2026*
+*113 tools total · Last updated November 2026*

@@ -835,6 +835,13 @@ const INITIAL_TOOLS = [
     chatSetup: '',
     codeSetup: 'npx skills add nutlope/hallmark -g\n# -g installs for every project\n# Then:\n# /hallmark — design a new page\n# /hallmark redesign <path> — redesign existing page\n# /hallmark audit <path> — audit only',
     tags: ['design','anti-slop','ui','themes','audit','redesign','codex','cursor','claude-code','together-ai'] },
+
+  { id: 113, name: 'Unsloth',              type: 'Git Repo', category: 'AI & LLM',
+    desc: 'Fast LLM fine-tuning — 2–5× faster, 70% less VRAM than standard training. Supports 500+ open-source models (LLaMA, Mistral, Qwen, Phi, Gemma, DeepSeek, vision, embedding, TTS). Methods: LoRA, QLoRA, 4-bit, SFT, DPO, ORPO, GRPO, full fine-tuning, RL. Can fine-tune 8B models on a single 12 GB GPU. Includes Unsloth Studio (web UI). Apache 2.0, 35k+ ⭐',
+    link: 'https://github.com/unslothai/unsloth',
+    chatSetup: '',
+    codeSetup: 'pip install unsloth\n# Or with extras:\npip install "unsloth[colab-new] @ git+https://github.com/unslothai/unsloth.git"\n# Run notebooks on Google Colab or local GPU',
+    tags: ['llm','fine-tuning','lora','qlora','training','gpu','llama','mistral','qwen','deepseek','rl','dpo','grpo','open-source'] },
 ]
 // ───────────────────────────────────────────────────────────────────────────
 
