@@ -209,6 +209,12 @@
   **Setup:** `npx skills add emilkowalski/skills --skill apple-design`  
   `#apple #ios #fluid #spring-animation #gesture #drag #swipe #vibrancy #motion #wwdc`
 
+- **Hallmark** ⚡ Skill  
+  Anti-AI-slop design skill by Nutlope — makes AI-generated UIs look made, not generated. 48 design themes, automated checks, three commands: `/hallmark` (new page), `/hallmark redesign <path>`, `/hallmark audit <path>`. Powered by Together AI. MIT, 31k+ ⭐  
+  🔗 https://github.com/nutlope/hallmark  
+  **Setup:** `npx skills add nutlope/hallmark -g`  
+  `#design #anti-slop #ui #themes #audit #redesign #codex #cursor #claude-code #together-ai`
+
 - **stageshow** ⚡ Skill  
   Benji Taylor's (X head of design) skill for building faux product UI and animated demos — cursor animations, bento grids, React kits, 7-step workflow. MIT licensed  
   🔗 https://github.com/benjitaylor/skills/tree/main/stageshow  
@@ -732,4 +738,4 @@
 
 ---
 
-*111 tools total · Last updated November 2026*
+*112 tools total · Last updated November 2026*

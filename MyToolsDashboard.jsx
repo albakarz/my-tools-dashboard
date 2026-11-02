@@ -828,6 +828,13 @@ const INITIAL_TOOLS = [
     chatSetup: 'claude mcp add browsentic -- browsentic mcp\n# Then start a new session (existing sessions won\'t have Browsentic tools)\n# Side panel: install browser extension from Chrome/Firefox store',
     codeSetup: 'npm install -g browsentic\n# Add MCP:\nclaude mcp add browsentic -- browsentic mcp\n# Or install browser extension for side panel:\n# Chrome/Edge: Web Store · Firefox: Add-ons',
     tags: ['browser','automation','side-panel','mcp','claude-code','codex','chrome','firefox','agentic','harness','no-api'] },
+
+  { id: 112, name: 'Hallmark',            type: 'Skill', category: 'Design & Animation',
+    desc: 'Anti-AI-slop design skill by Nutlope (Hassan El Mghari) — makes AI-generated UIs look made, not generated. 48 design themes, automated checks, and three commands: /hallmark (new page from prompt), /hallmark redesign <path> (rebuild keeping content + wiring), /hallmark audit <path> (report only). Powered by Together AI. MIT licensed, 31k+ ⭐',
+    link: 'https://github.com/nutlope/hallmark',
+    chatSetup: '',
+    codeSetup: 'npx skills add nutlope/hallmark -g\n# -g installs for every project\n# Then:\n# /hallmark — design a new page\n# /hallmark redesign <path> — redesign existing page\n# /hallmark audit <path> — audit only',
+    tags: ['design','anti-slop','ui','themes','audit','redesign','codex','cursor','claude-code','together-ai'] },
 ]
 // ───────────────────────────────────────────────────────────────────────────
 
