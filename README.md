@@ -79,6 +79,30 @@
   **Setup:** `git clone https://github.com/jaredpalmer/kev.git && cd kev && uv sync --extra serve`  
   `#decision-model #jev-compatible #lora #qwen #local #free #choice #noul #score #apache2`
 
+- **earshot** 🔌 MCP  
+  Ears for coding agents — gives Claude the ability to listen to, review, and create sound. CLI + MCP + two agent skills, 201-sound code-generated library, sfx timing to exact frames. CPU-only, open source, ~3k ⭐  
+  🔗 https://github.com/Leonxlnx/earshot  
+  **Setup:** `pip install earshot && claude mcp add earshot -- earshot mcp` + `npx skills add Leonxlnx/earshot`  
+  `#audio #sound #sfx #mcp #skill #critique #video #earshot #cpu #generative-audio`
+
+- **memvid** 🗃️ Git Repo  
+  Single-file AI memory layer — stores, indexes, and retrieves knowledge from one .mv2 file with hybrid lexical + semantic search, inspired by video encoding. Drop-in replacement for RAG pipelines. Apache 2.0  
+  🔗 https://github.com/memvid/memvid  
+  **Setup:** `pip install memvid` or `uv pip install memvid`  
+  `#memory #rag #search #hybrid #semantic #lexical #knowledge #single-file #embeddings #retrieval`
+
+- **LEANN** 🗃️ Git Repo  
+  MLSys 2026 Best Paper — on-device private RAG with 97% storage savings vs standard vector DBs. HNSW + DiskANN backends, hybrid vector + BM25 search, incremental adds/removes. MCP server and multimodal (CLIP) on roadmap. Apache 2.0  
+  🔗 https://github.com/StarTrail-org/LEANN  
+  **Setup:** `uv pip install leann` (or `uv pip install "leann[cpu]"` for DiskANN on macOS — see README)  
+  `#rag #vector-db #hnsw #diskann #bm25 #hybrid #local #private #on-device #mlsys #efficient`
+
+- **paul-graham-skills** ⚡ Skill  
+  5 behavioral discipline skills distilled from ~37 Paul Graham essays — includes "discover-not-persuade" and 4 others, each a SKILL.md file loadable into Claude Code. Apache 2.0  
+  🔗 https://github.com/WinterDDo/paul-graham-skills  
+  **Setup:** Clone and copy individual skill dirs into `~/.claude/skills/` (Claude auto-discovers at session start)  
+  `#paul-graham #essays #behavior #discipline #mindset #founder #discover #execution #principles`
+
 - **MiroFish** ⚡ Skill  
   AI simulation chat for scenario prediction — turn text, PDF, MD, or TXT into graph building, multi-agent simulation, reporting, and follow-up chat. Use cases: campaign pressure testing, pricing reaction modeling, policy stress tests, market narrative simulation. Web app, no install  
   🔗 https://mirofish.homes  
@@ -185,6 +209,24 @@
   **Setup:** `npx skills add emilkowalski/skills --skill apple-design`  
   `#apple #ios #fluid #spring-animation #gesture #drag #swipe #vibrancy #motion #wwdc`
 
+- **stageshow** ⚡ Skill  
+  Benji Taylor's (X head of design) skill for building faux product UI and animated demos — cursor animations, bento grids, React kits, 7-step workflow. MIT licensed  
+  🔗 https://github.com/benjitaylor/skills/tree/main/stageshow  
+  **Setup:** `npx skills add benjitaylor/skills --skill stageshow`  
+  `#demo #animation #ui #bento #react #cursor #faux-product #staging`
+
+- **unslop** ⚡ Skill  
+  Turns vibecoded, AI-looking UI into a designed interface — audits for purple gradients, glows, emoji labels, shouty copy, and uneven spacing then fixes screen pass by pass. Works on React, Vue, Svelte, Tailwind, or plain HTML/CSS. CC-BY-4.0, ~3.7k ⭐  
+  🔗 https://github.com/heydamir/unslop  
+  **Setup:** Copy skill folder into `.claude/skills/` then run `/unslop`  
+  `#ui #design #anti-slop #audit #vibecode #polish #react #tailwind`
+
+- **emilkowalski/skills (full)** ⚡ Skill  
+  10+ design-engineering skills by Emil Kowalski (250k+ installs) — animate, review-animations, find-animation-opportunities, mobile-native, prototype, apple-design (#58), and more. Install the full set at once  
+  🔗 https://github.com/emilkowalski/skills  
+  **Setup:** `npx skills@latest add emilkowalski/skills` (installs all ~11 skills)  
+  `#design #animation #motion #polish #mobile #prototype #review #easing #emilkowalski #collection`
+
 - **dimensional-drawing** ⚡ Skill  
   Turns any UI component (repo file, Storybook story, URL, or screenshot) into a one-page, monochrome Apple-style technical spec drawing. Companion skill dimensional-drawing-motion animates the finished sheet into a ~10s video via Claude Motion or headless Playwright + ffmpeg. MIT licensed, ~414 ⭐  
   🔗 https://github.com/enesozturk/dimensional-drawing  
@@ -270,6 +312,12 @@
   **Setup:** No install — browse uiverse.io, copy code, paste into your project  
   `#ui #components #css #tailwind #react #figma #free #library #open-source`
 
+- **3d-model-anything** 🗃️ Git Repo  
+  iPhone LiDAR scan + photos → editable Three.js 3D room scene, powered by Claude Code or Codex. Includes iPhone capture app, Three.js viewer, and a scan-to-threejs agent skill. MIT licensed  
+  🔗 https://github.com/wesbos/3d-model-anything  
+  **Setup:** `npx skills add wesbos/3d-model-anything --skill scan-to-threejs` · Scan room → export → ask agent to run scan-to-threejs  
+  `#lidar #iphone #threejs #3d #room #scan #reconstruction #skill #claude-code`
+
 - **Scroll-World 💳** ⚡ Skill  
   💳 Paid (AI image + video credits). Builds a scroll-scrubbed "fly through the world" 3D landing page for any brand — camera flies from outside each scene into its interior with no cuts. 8k ⭐  
   🔗 https://github.com/oso95/scroll-world  
@@ -334,6 +382,18 @@
   🔗 https://github.com/PostHog/posthog-for-claude  
   **Setup:** `/plugin marketplace add PostHog/posthog-for-claude`  
   `#analytics #feature-flags #errors #experiments #posthog #product #data #mcp #official`
+
+- **Elephant-Goldfish Model** ⚡ Skill  
+  Google's internal AI coding workflow — Elephant authors the design doc with full context; Goldfish reviewers start fresh and catch blind spots. Three commands: egm-brainstorm → egm-draft → egm-review. Used by 1000s of Googlers daily. Apache 2.0, not an officially supported Google product  
+  🔗 https://github.com/google/elephant-goldfish-model  
+  **Setup:** `git clone https://github.com/google/elephant-goldfish-model` (see README to wire into Claude Code)  
+  `#design-doc #review #workflow #brainstorm #google #draft #assumptions #engineering`
+
+- **floorplan** 🗃️ Git Repo  
+  Claude Code / Codex plugin that draws an interactive, plain-English map of every part, file, and web request in your codebase — plus health checks for exposed secrets and open DB rules. Exports as single HTML. Runs 100% locally, ~1.6k ⭐  
+  🔗 https://github.com/haydenschmitty/floorplan  
+  **Setup:** `claude plugin marketplace add haydenschmitty/floorplan && claude plugin install floorplan@floorplan`  
+  `#codebase #map #architecture #diagram #health-check #prd #planning #interactive #claude-code`
 
 - **DeepSeek Harness** 🗃️ Git Repo  
   DeepSeek's open-source MIT-licensed AI agent runtime — 207k+ GitHub stars. Model-agnostic layer above the model: handles reasoning, tool use, memory, scheduling. Supports Claude, OpenAI, DeepSeek, Ollama, Bedrock, Google Vertex, Azure  
@@ -426,6 +486,12 @@
   🔗 https://github.com/ogulcancelik/herdr  
   **Setup:** `brew install herdr` or `mise use -g herdr` · Docs: herdr.dev/docs  
   `#terminal #multiplexer #agents #claude-code #codex #tmux #pty #ssh #rust #yc #agent-control`
+
+- **browsentic** 🗃️ Git Repo  
+  Agentic browser harness — AI side panel + orb in your own logged-in Chrome, Edge, Arc, Brave, or Firefox, driven by Claude Code, Codex, or Antigravity. No extra API key. Also runs as MCP server. Apache 2.0  
+  🔗 https://github.com/imshaikot/browsentic  
+  **Setup:** `npm install -g browsentic && claude mcp add browsentic -- browsentic mcp` + install browser extension from store  
+  `#browser #automation #side-panel #mcp #claude-code #codex #chrome #firefox #agentic #no-api`
 
 - **Omarchy** 🗃️ Git Repo  
   Beautiful, agentic Linux by DHH (creator of Rails, Hey, Basecamp). Omakase Linux desktop on Arch + Hyprland + Quickshell — keyboard-first workstation with system-wide themes and integrated coding agents (Claude, Codex, Grok, OpenRouter, Hermes)  
@@ -540,6 +606,18 @@
 
 ## Security
 
+- **ghidra-mcp** 🔌 MCP  
+  Production-ready MCP server giving Claude 193+ tools for Ghidra binary analysis — decompile functions, run/manage scripts, cross-binary doc transfer via SHA-256 function hashing, P-code emulation, and debugger integration via TraceRmi  
+  🔗 https://github.com/bethington/ghidra-mcp  
+  **Setup:** Run `./setup.sh` from repo root (requires Ghidra installed) then `claude mcp add ghidra -- <path-to-server>` · See CLAUDE.md for full steps  
+  `#ghidra #reverse-engineering #binary #decompile #mcp #security #malware #elf #pe #analysis`
+
+- **BLA** 🔌 MCP  
+  Blind LLM Agents — defensive shield protecting your binaries, Electron apps, JS bundles, Python, and WebAssembly against AI reverse-engineering agents by poisoning context windows and exhausting token budgets. MIT licensed  
+  🔗 https://github.com/qybaihe/bla  
+  **Setup:** `npx bla-agents setup` (registers as MCP + skill with Claude Code, Cursor, Codex, Gemini CLI)  
+  `#security #defense #reverse-engineering #anti-rea #binary #electron #webassembly #mcp #protection`
+
 - **Repello SkillCheck** 🔌 MCP  
   Upload a .skill zip → get a safety score before installing any skill  
   🔗 https://repello.ai/tools/skills  
@@ -555,6 +633,12 @@
 ---
 
 ## Infrastructure
+
+- **Coolify** 🗃️ Git Repo  
+  Open-source, self-hostable PaaS alternative to Vercel, Heroku & Netlify — deploy static sites, databases, full-stack apps, and 360+ one-click services on your own servers, with Git push deploys, PR previews, rollbacks, and MCP support. Apache 2.0  
+  🔗 https://github.com/coollabsio/coolify  
+  **Setup:** `curl -fsSL https://cdn.coollabs.io/coolify/install.sh | bash` then visit `http://your-server:8000`  
+  `#paas #self-hosted #deploy #vercel-alternative #docker #databases #mcp #open-source #infrastructure`
 
 - **CLIProxyAPI ⚠️** 🗃️ Git Repo  
   ⚠️ Grey-area (ToS). Self-hosted Go proxy that wraps Claude/ChatGPT/Gemini/Grok subscriptions as OpenAI-compatible API endpoints — no API keys needed. 39.4k ⭐ Multi-account load balancing supported  
@@ -648,4 +732,4 @@
 
 ---
 
-*97 tools total · Last updated October 2026*
+*111 tools total · Last updated November 2026*
