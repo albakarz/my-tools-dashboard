@@ -842,6 +842,13 @@ const INITIAL_TOOLS = [
     chatSetup: '',
     codeSetup: 'pip install unsloth\n# Or with extras:\npip install "unsloth[colab-new] @ git+https://github.com/unslothai/unsloth.git"\n# Run notebooks on Google Colab or local GPU',
     tags: ['llm','fine-tuning','lora','qlora','training','gpu','llama','mistral','qwen','deepseek','rl','dpo','grpo','open-source'] },
+
+  { id: 114, name: 'Postiz',               type: 'Git Repo', category: 'Marketing',
+    desc: 'The ultimate agentic social media scheduling platform — schedule, automate, and analyze posts across Instagram, YouTube, LinkedIn, X/Twitter, TikTok, Facebook, Pinterest, Threads, Reddit, Bluesky, Slack, Discord, Mastodon and more. AI content generation, team collaboration, MCP server, public API, N8N/Make/Zapier integration. Self-hosted = unlimited channels, posts, and team members. AGPL-3.0, 40k+ ⭐',
+    link: 'https://github.com/gitroomhq/postiz-app',
+    chatSetup: '',
+    codeSetup: '# Docker (recommended)\ngit clone https://github.com/gitroomhq/postiz-app\ncd postiz-app\ncp .env.example .env  # edit with your keys\ndocker compose up -d\n# Or see: https://docs.postiz.com/quickstart\n# MCP: https://postiz.com/mcp',
+    tags: ['social-media','scheduling','instagram','twitter','linkedin','tiktok','facebook','bluesky','threads','reddit','mcp','api','team','self-hosted','automation','n8n'] },
 ]
 // ───────────────────────────────────────────────────────────────────────────
 

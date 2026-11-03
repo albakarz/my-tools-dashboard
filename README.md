@@ -539,6 +539,12 @@
   **Setup:** `git clone https://github.com/kevinbadi/Kevs-IOS-Agents` (requires Mac, real devices, Postgres)  
   `#ios #android #automation #tiktok #instagram #social #scheduler #postgres #self-hosted #farm`
 
+- **Postiz** 🗃️ Git Repo  
+  The ultimate agentic social media scheduling platform — schedule, automate, and analyze posts across Instagram, YouTube, LinkedIn, X/Twitter, TikTok, Facebook, Pinterest, Threads, Reddit, Bluesky, Slack, Discord, Mastodon and more. AI content generation, team collaboration, MCP server, public API, N8N/Make/Zapier integration. Self-hosted = unlimited channels, posts, and team members. AGPL-3.0, 40k+ ⭐  
+  🔗 https://github.com/gitroomhq/postiz-app  
+  **Setup:** `git clone https://github.com/gitroomhq/postiz-app && cp .env.example .env && docker compose up -d`  
+  `#social-media #scheduling #instagram #twitter #linkedin #tiktok #facebook #bluesky #threads #reddit #mcp #api #team #self-hosted #automation #n8n`
+
 - **openSEO 💳** 🔌 MCP  
   Open-source SEO + GEO skills for Claude on your real GSC/GA4/ads data. Free MCP connects to Search Console, Analytics, and ads. 8 MIT-licensed skills: keyword research, rank tracking, site audits, backlinks, competitor gaps, AI visibility. DataForSEO 💳 built in  
   🔗 https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills  
@@ -744,4 +750,4 @@
 
 ---
 
-*113 tools total · Last updated November 2026*
+*114 tools total · Last updated November 2026*
