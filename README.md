@@ -620,6 +620,12 @@
   **Setup:** `claude mcp add turath -- npx -y turath-mcp-server`  
   `#arabic #islamic #books #hadith #tafsir #fiqh #quran #classical #search #free #turath`
 
+- **GameDev Resources** 🗃️ Git Repo  
+  Curated list of game development resources covering 2D/3D engines & frameworks (Godot, Unity, Phaser, Three.js, Bevy, Raylib…), free/paid assets, audio tools, pixel editors, spritesheet tools, terrain generators, tile/level editors, game source code (Doom, Quake, Diablo…), design tools, tutorials, and game jams. 6.9k ⭐  
+  🔗 https://github.com/kavex/gamedev-resources  
+  **Setup:** Reference only — `git clone https://github.com/kavex/gamedev-resources`  
+  `#gamedev #collection #engines #assets #godot #unity #phaser #threejs #bevy #raylib #pixel-art #tutorials #game-jam #2d #3d`
+
 ---
 
 ## Security
@@ -750,4 +756,4 @@
 
 ---
 
-*114 tools total · Last updated November 2026*
+*115 tools total · Last updated November 2026*

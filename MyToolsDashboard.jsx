@@ -849,6 +849,13 @@ const INITIAL_TOOLS = [
     chatSetup: '',
     codeSetup: '# Docker (recommended)\ngit clone https://github.com/gitroomhq/postiz-app\ncd postiz-app\ncp .env.example .env  # edit with your keys\ndocker compose up -d\n# Or see: https://docs.postiz.com/quickstart\n# MCP: https://postiz.com/mcp',
     tags: ['social-media','scheduling','instagram','twitter','linkedin','tiktok','facebook','bluesky','threads','reddit','mcp','api','team','self-hosted','automation','n8n'] },
+
+  { id: 115, name: 'GameDev Resources',    type: 'Git Repo', category: 'Collections',
+    desc: 'Curated list of game development resources covering 2D/3D engines & frameworks (Godot, Unity, Phaser, Three.js, Bevy, Raylib…), free/paid assets, audio tools, pixel editors, spritesheet tools, terrain generators, tile/level editors, game source code (Doom, Quake, Diablo…), design tools, tutorials, and game jams. 6.9k ⭐',
+    link: 'https://github.com/kavex/gamedev-resources',
+    chatSetup: '',
+    codeSetup: '# Browse the README for resource lists\ngit clone https://github.com/kavex/gamedev-resources',
+    tags: ['gamedev','collection','engines','assets','godot','unity','phaser','threejs','bevy','raylib','pixel-art','tutorials','game-jam','2d','3d'] },
 ]
 // ───────────────────────────────────────────────────────────────────────────
 
