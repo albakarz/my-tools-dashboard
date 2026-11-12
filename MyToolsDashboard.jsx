@@ -856,6 +856,20 @@ const INITIAL_TOOLS = [
     chatSetup: '',
     codeSetup: '# Browse the README for resource lists\ngit clone https://github.com/kavex/gamedev-resources',
     tags: ['gamedev','collection','engines','assets','godot','unity','phaser','threejs','bevy','raylib','pixel-art','tutorials','game-jam','2d','3d'] },
+
+  { id: 116, name: 'system_prompts_leaks ⚠️', type: 'Git Repo', category: 'Security',
+    desc: '⚠️ Grey-area — extracted system prompts, not officially released. Full system prompts of 30+ AI tools: ChatGPT, Claude, Gemini, Grok, OpenAI Codex, Claude Code, Google Antigravity, Cursor, Perplexity, DeepSeek, Qwen, Kimi, Replit, Lovable and more. Every version since May 2025, updated daily. CC0-1.0 public domain, 71.1k ⭐',
+    link: 'https://github.com/asgeirtj/system_prompts_leaks',
+    chatSetup: '',
+    codeSetup: 'git clone https://github.com/asgeirtj/system_prompts_leaks\n# Browse by tool name in the repo\n# Updated daily automatically',
+    tags: ['system-prompts','leaked','chatgpt','claude','gemini','grok','cursor','perplexity','deepseek','transparency','reverse-engineering','ai-safety'] },
+
+  { id: 117, name: 'CL4R1T4S ⚠️',           type: 'Git Repo', category: 'Security',
+    desc: '⚠️ Grey-area — extracted system prompts, not officially released. By Pliny the Liberator (elder-plinius, TIME100 AI 2025) — leaked system prompts for ChatGPT, Claude, Gemini, Grok, Perplexity, Cursor, Lovable, Replit and more, 51.5k ⭐. Same author\'s other repos: L1B3RT4S (jailbreak prompts, 22k ⭐), T3MP3ST (autonomous red-teaming platform, 6.6k ⭐), OBLITERATUS (Python red-team toolkit, 8.9k ⭐)',
+    link: 'https://github.com/elder-plinius/CL4R1T4S',
+    chatSetup: '',
+    codeSetup: 'git clone https://github.com/elder-plinius/CL4R1T4S\n# See also:\n# github.com/elder-plinius/L1B3RT4S  — jailbreak prompts\n# github.com/elder-plinius/T3MP3ST   — red-team platform\n# github.com/elder-plinius/OBLITERATUS — Python toolkit',
+    tags: ['system-prompts','leaked','jailbreak','red-team','chatgpt','claude','gemini','grok','transparency','pliny','ai-safety','security-research'] },
 ]
 // ───────────────────────────────────────────────────────────────────────────
 

@@ -654,6 +654,18 @@
   **Setup:** `/plugin marketplace add anthropics/skills && /plugin install example-skills@anthropic-agent-skills`  
   `#security #threat-model #vulnerability #review #official`
 
+- **system_prompts_leaks ⚠️** 🗃️ Git Repo  
+  ⚠️ Grey-area — extracted system prompts, not officially released. Full system prompts of 30+ AI tools: ChatGPT, Claude, Gemini, Grok, Codex, Claude Code, Google Antigravity, Cursor, Perplexity, DeepSeek, Qwen, Kimi, Replit, Lovable and more. Every version since May 2025, updated daily. CC0-1.0 public domain, 71.1k ⭐  
+  🔗 https://github.com/asgeirtj/system_prompts_leaks  
+  **Setup:** `git clone https://github.com/asgeirtj/system_prompts_leaks` — browse by tool name  
+  `#system-prompts #leaked #chatgpt #claude #gemini #grok #cursor #perplexity #deepseek #transparency #ai-safety`
+
+- **CL4R1T4S ⚠️** 🗃️ Git Repo  
+  ⚠️ Grey-area — extracted system prompts, not officially released. By Pliny the Liberator (elder-plinius, TIME100 AI 2025) — leaked system prompts for ChatGPT, Claude, Gemini, Grok, Perplexity, Cursor, Lovable, Replit and more. 51.5k ⭐. Same author's other repos: L1B3RT4S (jailbreak prompts, 22k ⭐), T3MP3ST (autonomous red-teaming platform, 6.6k ⭐), OBLITERATUS (Python red-team toolkit, 8.9k ⭐)  
+  🔗 https://github.com/elder-plinius/CL4R1T4S  
+  **Setup:** `git clone https://github.com/elder-plinius/CL4R1T4S`  
+  `#system-prompts #leaked #jailbreak #red-team #chatgpt #claude #gemini #grok #transparency #pliny #ai-safety #security-research`
+
 ---
 
 ## Infrastructure
@@ -756,4 +768,4 @@
 
 ---
 
-*115 tools total · Last updated November 2026*
+*117 tools total · Last updated November 2026*
