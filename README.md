@@ -768,4 +768,176 @@
 
 ---
 
-*117 tools total · Last updated November 2026*
+## Collections
+
+- **Skillry 💳** 🗃️ Git Repo  
+  💳 Paid — skill and prompt library with curated Claude skills and Opus 5.5 video walkthroughs  
+  🔗 https://skillry.dev  
+  **Setup:** Browse at https://skillry.dev/ai-videos/opus-5-5  
+  `#skills #prompts #library #claude #opus #videos #paid`
+
+---
+
+## Design & Animation
+
+- **21st.dev** 🗃️ Git Repo  
+  AI-ready UI component registry — ship polished React components built for AI-assisted development  
+  🔗 https://21st.dev  
+  **Setup:** `npx shadcn@latest add "https://21st.dev/r/[component]"`  
+  `#ui #components #react #shadcn #ai-ready #registry`
+
+- **Supahero** 🗃️ Git Repo  
+  Hero section design inspiration library — curated landing-page hero patterns for rapid reference  
+  🔗 https://supahero.io  
+  **Setup:** Browse at https://supahero.io  
+  `#hero #landing-page #design #inspiration #ui`
+
+- **Motion.dev** 🗃️ Git Repo  
+  Open-source animation library for React, JS and Vue (formerly Framer Motion) — gestures, layout animations, scroll effects  
+  🔗 https://motion.dev  
+  **Setup:** `npm install motion`  
+  `#animation #react #vue #framer-motion #scroll #gestures`
+
+- **ClaudeAnimationBase** 🗃️ Git Repo  
+  Hand-painted cartoon animation starter kit with p5.js — generative art and animation base used with Claude, 2.7k ⭐  
+  🔗 https://github.com/JohnHeibel/ClaudeAnimationBase  
+  **Setup:** `git clone https://github.com/JohnHeibel/ClaudeAnimationBase`  
+  `#animation #p5js #generative-art #cartoon #creative-coding #claude`
+
+- **Kubai Icons** ⚡ Skill  
+  Claude skill for generating animated SVG icons on demand — describe the icon, get back polished SVG with animation  
+  🔗 https://github.com/kubai087/kubai-icons  
+  **Setup:** `git clone https://github.com/kubai087/kubai-icons ~/.claude/skills/kubai-icons`  
+  `#icons #svg #animated #skill #claude #design`
+
+- **p5.brush** 🗃️ Git Repo  
+  Natural drawing for p5.js — pencils, markers, watercolor, oil paint and more. Brush Maker with live preview included  
+  🔗 https://github.com/acamposuribe/p5.brush  
+  **Setup:** `npm install p5.brush`  
+  `#p5js #drawing #generative-art #watercolor #brush #creative-coding #canvas`
+
+- **motionmaxxing** ⚡ Skill  
+  Looksmaxxing for motion graphics — Claude Code skill that turns AI slop videos into films that look motion-designer-made. 117 ⭐  
+  🔗 https://github.com/Tejashmakwana/motionmaxxing  
+  **Setup:** `git clone https://github.com/Tejashmakwana/motionmaxxing ~/.claude/skills/motionmaxxing && bash ~/.claude/skills/motionmaxxing/install.sh`  
+  `#motion-graphics #animation #skill #video #gsap #claude-code #design`
+
+---
+
+## Marketing
+
+- **WhatShips** 🗃️ Git Repo  
+  2,000+ startup launch videos from X — curated library of real product launches to study shipping strategies  
+  🔗 https://whatships.com  
+  **Setup:** Browse at https://whatships.com  
+  `#launches #startup #x #twitter #videos #marketing #inspiration`
+
+- **Instagram Agent Skill** ⚡ Skill  
+  13 Claude skills for Instagram — automate posting, caption writing, hashtag research, analytics, and DM workflows  
+  🔗 https://github.com/Jakeschincariol/instagram-agent-skill  
+  **Setup:** `git clone https://github.com/Jakeschincariol/instagram-agent-skill ~/.claude/skills/instagram`  
+  `#instagram #social-media #automation #captions #hashtags #skill`
+
+- **Reverse Engineer Marketing** 🔌 MCP  
+  Paste a URL, get the whole marketing machine — paid ads, SEO, social, founders, funnel. CLI + MCP server + local web app  
+  🔗 https://github.com/dansugc/reverse-engineer-marketing  
+  **Setup:** `claude mcp add reverse-engineer-marketing -- npx -y reverse-engineer-marketing mcp`  
+  `#marketing #competitor-analysis #ads #seo #mcp #cli #growth #spy`
+
+---
+
+## Video Analysis
+
+- **JoyAI-Video-Edit** 🗃️ Git Repo  
+  Real-time streaming AI video editing — text-driven edits on live video via HuggingFace inference, 2k ⭐  
+  🔗 https://github.com/jd-opensource/JoyAI-Video-Edit  
+  **Setup:** `git clone https://github.com/jd-opensource/JoyAI-Video-Edit`  
+  `#video #ai #realtime #streaming #editing #huggingface #text-to-edit`
+
+---
+
+## Utility
+
+- **Pinky** 🗃️ Git Repo  
+  Let AI agents use your phone, with you in the loop — by DIYgod, bridges AI agents to your mobile device safely  
+  🔗 https://github.com/DIYgod/pinky  
+  **Setup:** `git clone https://github.com/DIYgod/pinky`  
+  `#phone #mobile #agent #computer-use #ios #android #control`
+
+- **EG2 Transcribe** 🗃️ Git Repo  
+  EmbeddingGemma 2 turned into speech-to-text — transcribes 1 hour of audio in 13 seconds on base MacBook Air. Free Mac app  
+  🔗 https://eg2.haku.sh  
+  **Setup:** Download free Mac app at https://eg2.haku.sh/download (macOS 14+, Apple Silicon)  
+  `#stt #transcription #mac #local #fast #gemma #on-device #free`
+
+---
+
+## AI & LLM
+
+- **Mercury Agent** 🗃️ Git Repo  
+  Soul-driven AI agent with permission-hardened tools, token budgets, and multi-channel access — runs 24/7 from CLI, Telegram or more  
+  🔗 https://github.com/cosmicstack-labs/mercury-agent  
+  **Setup:** `git clone https://github.com/cosmicstack-labs/mercury-agent`  
+  `#agent #telegram #cli #24/7 #permissions #token-budget #multi-channel`
+
+- **Sophon-Realtime** 🗃️ Git Repo  
+  Open full-duplex voice model family — hears tone, laughs and sighs in replies. #1 open model on VoiceBench. Apache-2.0, 32B  
+  🔗 https://github.com/adventists-ai/sophon-realtime  
+  **Setup:** `pip install sophon-realtime && sophon-realtime serve`  
+  `#voice #full-duplex #realtime #speech #tts #stt #llm #open-source`
+
+---
+
+## Engineering
+
+- **UI-TARS Desktop** 🗃️ Git Repo  
+  Open-source multimodal AI agent stack by ByteDance — connects cutting-edge AI models and agent infra, 39.6k ⭐  
+  🔗 https://github.com/bytedance/UI-TARS-desktop  
+  **Setup:** `git clone https://github.com/bytedance/UI-TARS-desktop`  
+  `#agent #multimodal #bytedance #computer-use #desktop #ai-stack #gui`
+
+---
+
+## Security
+
+- **ClearCam** 🗃️ Git Repo  
+  Self-hosted AI security camera NVR with real-time object detection — runs locally on Mac/Linux, 2k ⭐  
+  🔗 https://github.com/roryclear/clearcam  
+  **Setup:** `git clone https://github.com/roryclear/clearcam && pip install -r requirements.txt`  
+  `#security #camera #nvr #object-detection #self-hosted #privacy #local`
+
+---
+
+## Dev Tools
+
+- **agent-desktop** 🗃️ Git Repo  
+  Computer use CLI for AI agents via accessibility tree — Vercel Labs tool enabling agents to control the desktop, 21.6k ⭐  
+  🔗 https://github.com/vercel-labs/agent-desktop  
+  **Setup:** `npx agent-desktop`  
+  `#computer-use #accessibility #cli #agents #desktop #vercel`
+
+- **AndroidAutoMaker** 🗃️ Git Repo  
+  Make any app run on Android Auto — takes an APK/XAPK and prepares it as a parked game on your car screen  
+  🔗 https://github.com/malebuffy/AndroidAutoMaker  
+  **Setup:** `git clone https://github.com/malebuffy/AndroidAutoMaker && npm install && npm start`  
+  `#android #android-auto #car #apk #sideload #mobile`
+
+- **Genex Desktop** 🗃️ Git Repo  
+  Open-source AI desktop app for game dev — agents build, test and iterate in Unreal Engine, Unity, Godot or Three.js. 842 ⭐  
+  🔗 https://genex.games/desktop  
+  **Setup:** Download at https://genex.games/desktop (macOS, Linux, Windows)  
+  `#gamedev #unreal #unity #godot #agents #ai #open-source #desktop`
+
+---
+
+## Infrastructure
+
+- **Cloud Mail** 🗃️ Git Repo  
+  Cloudflare-based self-hosted email service — send/receive with attachments, RBAC, Workers AI for OTP recognition. 14.6k ⭐  
+  🔗 https://github.com/maillab/cloud-mail  
+  **Setup:** `git clone https://github.com/maillab/cloud-mail && cd cloud-mail && npm install`  
+  `#email #cloudflare #workers #self-hosted #smtp #infrastructure #d1`
+
+---
+
+*139 tools total · Last updated November 2026*
