@@ -1024,6 +1024,20 @@ const INITIAL_TOOLS = [
     chatSetup: '',
     codeSetup: 'git clone https://github.com/maillab/cloud-mail && cd cloud-mail && npm install',
     tags: ['email','cloudflare','workers','self-hosted','smtp','infrastructure','d1'] },
+
+  { id: 140, name: 'Caldo Skills', type: 'Skill', category: 'Dev Tools',
+    desc: 'Caldo plugin marketplace for Claude Code — includes untangle-codebase skill that maps and cleans up messy codebases for agents. 44 ⭐',
+    link: 'https://github.com/caldoai/skills',
+    chatSetup: '/plugin marketplace add caldoai/skills',
+    codeSetup: 'npx skills add caldoai/skills',
+    tags: ['skill','codebase','agents','plugin','marketplace','refactor','claude-code'] },
+
+  { id: 141, name: 'Orion 💳', type: 'Git Repo', category: 'Marketing',
+    desc: '💳 SaaS — predicts where each visitor looked from session replays with no webcam, scores every visit for friction. by Paradigm Machines',
+    link: 'https://app.paradigmmachines.ai',
+    chatSetup: '',
+    codeSetup: '# SaaS — sign up at https://app.paradigmmachines.ai',
+    tags: ['analytics','ux','heatmap','gaze','session-replay','friction','saas','paid'] },
 ]
 // ───────────────────────────────────────────────────────────────────────────
 

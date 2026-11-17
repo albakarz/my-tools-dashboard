@@ -940,4 +940,24 @@
 
 ---
 
-*139 tools total · Last updated November 2026*
+## Dev Tools
+
+- **Caldo Skills** ⚡ Skill  
+  Caldo plugin marketplace for Claude Code — includes untangle-codebase skill that maps and cleans up messy codebases for agents. 44 ⭐  
+  🔗 https://github.com/caldoai/skills  
+  **Setup:** `npx skills add caldoai/skills` or `/plugin marketplace add caldoai/skills`  
+  `#skill #codebase #agents #plugin #marketplace #refactor #claude-code`
+
+---
+
+## Marketing
+
+- **Orion 💳** 🗃️ Git Repo  
+  💳 SaaS — predicts where each visitor looked from session replays with no webcam, scores every visit for friction. by Paradigm Machines  
+  🔗 https://app.paradigmmachines.ai  
+  **Setup:** Sign up at https://app.paradigmmachines.ai  
+  `#analytics #ux #heatmap #gaze #session-replay #friction #saas #paid`
+
+---
+
+*141 tools total · Last updated November 2026*
