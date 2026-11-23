@@ -1,0 +1,11 @@
+{
+  "name": "my-tools-dashboard",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/tools.mjs build",
+    "check": "node scripts/tools.mjs check",
+    "find": "node scripts/tools.mjs find",
+    "next-id": "node scripts/tools.mjs next-id"
+  }
+}
